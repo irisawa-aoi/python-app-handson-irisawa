@@ -1,8 +1,7 @@
-from pathlib import Path
 import tomllib
+from pathlib import Path
 
 import streamlit as st
-
 
 DEFAULT_SETTINGS = {
     "store_name": "AOI CAFE",

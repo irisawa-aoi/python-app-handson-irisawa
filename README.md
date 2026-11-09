@@ -65,4 +65,18 @@ tagline = "香りとくつろぎを、毎日の一杯に。"
    streamlit run app.py
    ```
 
+## 静的解析（Ruff）
+
+GitHub Actions と同じ静的解析をローカルでも実行できます。
+
+1. 仮想環境を有効化します。
+2. 依存パッケージと Ruff をインストールします。
+3. Ruff を実行します。
+
+```bash
+python -m pip install -r requirements.txt
+python -m pip install ruff
+ruff check .
+```
+
 起動後、ブラウザーに表示される画面で注文できます。仮想環境を終了するときは `deactivate` を実行してください。
